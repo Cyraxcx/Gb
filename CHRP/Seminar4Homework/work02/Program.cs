@@ -6,14 +6,19 @@
 
 Console.WriteLine("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-int result = 0;
-int sum = 0;
-while(a > 0)
+int function(int a)
     {
-        result = a % 10;
-        sum = result + sum;
-        a = a / 10;
-        
+        int result = 0;
+        int sum = 0;
+        while(a > 0)
+            {
+                result = a % 10;
+                sum = result + sum;
+                a = a / 10;
+                
 
+            }
+        return sum;   
     }
-Console.WriteLine(sum);
+Console.Write(function(a));    
+     
