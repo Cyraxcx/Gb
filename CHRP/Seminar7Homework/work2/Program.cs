@@ -17,7 +17,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите значение элемента: ");
 int x = Convert.ToInt32(Console.ReadLine());
 int[,] matr = new int[m,n];
-
+int count = 0;
 void PrintArray(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
@@ -42,11 +42,16 @@ void FillArray(int[,] matr)
         {
             matr[i, j] = new Random().Next(0,5);
 
-            if(matr[i,j]==x) Console.WriteLine($"Такое число есть его индекс: {i}.{j}   ");
-
+            if(matr[i,j]==x) 
+                {   
+                Console.WriteLine($" Число: {x} есть его индекс: {i}.{j} ");
+                count += 1;
+                }
+                
+                  
         }
     } 
-
+    if (count < 1) Console.WriteLine("Такого числа нет"); 
 }
 
 FillArray(matr);

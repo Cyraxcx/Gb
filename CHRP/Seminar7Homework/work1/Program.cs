@@ -32,8 +32,8 @@ void FillArray(double[,] matr)
         {
 
             matr[i, j] = new Random().Next(-100,1000);
-            if(matr[i,j]%1==0);
-                matr[i,j]= matr[i,j]/10;
+            if(matr[i,j] % 1 == 0);
+                matr[i,j] = matr[i,j] / 10;
         }
     }
 }
