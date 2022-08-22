@@ -29,6 +29,6 @@ int max = massive.Max();
 int res = max - min;
 
 
-//PrintArray(massive);
+PrintArray(massive);
 Console.WriteLine();
 Console.WriteLine($"Min: {min} , Max: {max}, разница: {res}");
