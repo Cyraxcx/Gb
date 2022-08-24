@@ -8,7 +8,7 @@ Console.WriteLine("Введите число n: ");
 int n = Convert.ToInt32(Console.ReadLine());
 string NumbersRec(int a, int b)
     {
-    if (a <= b) return NumbersRec(a, b-1);
+    if (a <= b) return NumbersRec(a, b-1) + $"{b}, ";
     else return string.Empty;
 
     }
