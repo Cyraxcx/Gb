@@ -5,10 +5,13 @@
 # 0,56 -> 11
 
 
-number = 0
-num = input("Введите число: ")
-for i in str(num):
-    if i != ',' and i != '-':
-        number += int(i)
-print(number)      
+def sum(num):
+    number = 0
+    for i in num:
+        if i != ',' and i != '-':
+            number += int(i)
+    print(number)
 
+
+num = input("Введите число: ")
+sum(num)
