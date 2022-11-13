@@ -2,7 +2,7 @@ from telebot import TeleBot
 from telebot import types
 from time import *
 
-bot = TeleBot('5621354309:AAGyrNvRtC22rYecWS44uNNsOu5UGG1amQY')
+bot = TeleBot('5574141665:AAETEO5BIgobGJvOrgpfRVg7JjFEtTDtxkA')
 
 with open('logfile.log', 'a', encoding="utf-8") as f_log:
     print(asctime(), 'Бот запущен', file=f_log)
