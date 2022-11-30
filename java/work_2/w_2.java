@@ -1,4 +1,5 @@
 package work_2;
+// Реализуйте алгоритм сортировки пузырьком числового массива, результат после каждой итерации запишите в лог-файл.
 import java.io.IOException;
 import java.util.logging.*;
 import java.util.Arrays;
