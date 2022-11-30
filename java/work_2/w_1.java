@@ -1,14 +1,14 @@
-import java.util.Scanner;
-import java.io.*;
+package work_2;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class seminar {
+public class w_1 {
+
 
     public static void main(String[] args) {
-
         try {
             File file = new File("data.txt");
             Scanner scanner = new Scanner(file);
@@ -18,6 +18,7 @@ public class seminar {
                     .split(",");
             scanner.close();
 
+            
             ArrayList key = new ArrayList<>();
             ArrayList value = new ArrayList<>();
             for (int i = 0; i < words.length; i++) {
@@ -32,7 +33,7 @@ public class seminar {
 
             StringBuilder stringRequest = new StringBuilder();
             stringRequest.append("SELECT * FROM students WHERE ");
-            for (int i = 0; i < key.size(); i++) {
+            for (int i = 0; i < key.size(); i++) {                
                 if (!value.get(i).equals("null")) {
                     if (i > 0)
                         stringRequest.append(" AND ");
@@ -46,3 +47,4 @@ public class seminar {
         }
     }
 }
+
