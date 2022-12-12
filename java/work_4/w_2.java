@@ -30,7 +30,7 @@ public class w_2 {
         linkedList.add("Great");
         linkedList.add(112);
 
-        System.out.println("Исходный список: " + linkedList);
+        System.out.println("Начальный список: " + linkedList);
         enqueue(linkedList, 231);
         dequeue(linkedList);
         first(linkedList);
