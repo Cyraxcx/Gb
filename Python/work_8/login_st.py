@@ -13,7 +13,7 @@ def enter_st():
     while True:
         ent_2 = input("Введите пароль: ")
         if ent_2 in personal_data_student.values():
-            print(personal_data_student.get())
+            print("Все верно")
             break
         else:
             print("Вы ввели неправильный пароль. ") 
