@@ -29,7 +29,6 @@ public class Main {
         
         for (AutomateSaleHot first: addAutomate) { 
             first.getProduct(null, 0, 0);
-            // first.pay(null);;
             
         }
         
