@@ -1,0 +1,15 @@
+<?xml version="1.0"encoding="utf-8" ?>
+<data>
+	<student>
+		<name/Мария</name>
+		<grade/grade5,0</grade>
+	</student>
+	<student>
+		<name/Степан</name>
+		<grade/grade3,6</grade>
+	</student>
+	<student>
+		<name/Иван</name>
+		<grade/grade4,8</grade>
+	</student>
+</data>
