@@ -1,4 +1,4 @@
-package HW5.Task1;
+package OOP.w_6.work_1;
 
 import java.util.Scanner;
 

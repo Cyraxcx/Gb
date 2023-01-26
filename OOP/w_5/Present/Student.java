@@ -31,6 +31,7 @@ public class Student {
 
         }
         percent = count/allDay * 100;
+        
         return percent;
     }
 

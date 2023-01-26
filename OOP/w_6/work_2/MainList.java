@@ -1,4 +1,4 @@
-package HW5.Task2;
+package OOP.w_6.work_2;
 
 public abstract class MainList<T> {
 
